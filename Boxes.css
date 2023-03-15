@@ -1,0 +1,28 @@
+.upper div {
+    height: 50px;
+    width: 50px;
+    background-color: cornflowerblue;
+    display: inline-block;
+    margin: 25px 6px;
+}
+.under div {
+    height: 50px;
+    width: 50px;
+    background-color: darkmagenta;
+    display: inline-block;  
+    margin: 25px 6px;
+}
+.under {
+    border: solid cornflowerblue 2px;
+    background-color: orangered;
+    text-align: center;
+    width: 700px;
+    height: 100px;
+    margin: 15px 0px;
+}
+.upper {
+    border: solid cornflowerblue 2px;
+    text-align: center;
+    width: 700px;
+    height: 100px;
+}
