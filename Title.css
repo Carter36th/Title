@@ -1,0 +1,12 @@
+div {
+    border: solid black;
+    border-width: 2px 4px;
+    text-align: center;
+    width: 200px;
+
+}
+div:hover {
+    background-color: orangered;
+    cursor: crosshair;
+    transition: .8s;
+}
