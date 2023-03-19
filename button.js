@@ -16,7 +16,11 @@ function fun1() {
 }
 btn1.addEventListener("click",fun1);
 
-function fun2() {
+/*function fun2() {
     console.log("Clicked");
     submit.disabled = true;
-  }
+}
+function fun1() {
+    console.log("Clicked");
+    btn1.removeEventListener("click", fun1);
+}
