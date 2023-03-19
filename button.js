@@ -23,4 +23,21 @@ btn1.addEventListener("click",fun1);
 function fun1() {
     console.log("Clicked");
     btn1.removeEventListener("click", fun1);
+}*/
+
+var data = 0;
+document.getElementById("output1").innerText = data;
+const btn2 = document.getElementById("count");
+btn2.addEventListener("click",increase);
+
+
+function increase () {
+    data = data + 1;
+    document.getElementById("output1").innerText = data;
+}
+const btn3 = document.getElementById("decount");
+btn3.addEventListener("click",decrease);
+function decrease () {
+    data = data - 1;
+    document.getElementById("output1").innerText = data;
 }

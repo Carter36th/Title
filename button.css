@@ -9,5 +9,9 @@ body {
 button {
     width: 100px;
     margin: 10px;
-    
+
+}
+#count {
+    width: 100px;
+    height: 25px;
 }
