@@ -1,0 +1,13 @@
+body {
+    width: 100px;
+    height: 1000px;
+}
+#all {
+    position: relative;
+    margin: 50%;
+}
+button {
+    width: 100px;
+    margin: 10px;
+    
+}
